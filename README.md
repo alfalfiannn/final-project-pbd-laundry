@@ -1,1 +1,68 @@
-# final-project-pbd-laundry
+# Sistem Basis Data Laundry & Dry Clean 🧺
+
+*Final Project Mata Kuliah Pemrograman Basis Data* 
+
+Repository ini berisi dokumentasi, rancangan, dan implementasi basis data untuk studi kasus **Sistem Informasi Laundry & Dry Clean**. Proyek ini bertujuan untuk mengelola data operasional laundry mulai dari manajemen kasir, pelanggan, layanan, hingga transaksi harian.
+
+👥 Anggota Kelompok (Ceriaa)
+Proyek ini dikerjakan oleh mahasiswa Kelas 24TIA5:
+
+| NIM | Nama Lengkap | Peran |
+| :--- | :--- | :--- |
+| **240103153** | **Alfian Hafidz Affandi** | Perancangan ERD & Normalisasi |
+| **240103163** | **Iman Septian** | Implementasi SQL & Query |
+| **240103180** | **Yoga Rafi Arifianto** | Penyusunan Laporan & Dokumentasi |
+
+---
+
+## 📂 Struktur Repository
+Sesuai ketentuan tugas, repository ini disusun dengan struktur sebagai berikut:
+
+- **`/sql`**: Berisi file script database (`.sql`) yang siap dijalankan (DDL, DML, Query).
+- **`/dokumen`**: Berisi Laporan Akhir (PDF) dan Poster Project (PDF).
+- **`/assets`**: (Opsional) Menyimpan gambar ERD atau screenshot hasil query untuk ditampilkan di README ini.
+
+---
+
+## 🛠️ Tools yang Digunakan
+- **Database Engine:** MySQL / MariaDB
+- **Tools Desain:** MySQL Workbench / Draw.io (untuk ERD)
+- **Editor SQL:** VS Code / DBeaver / PHPMyAdmin
+
+---
+
+## 📝 Deskripsi & Fitur Proyek
+Sistem ini dirancang menggunakan metode normalisasi hingga **3NF (Third Normal Form)** untuk memastikan integritas data. Fitur utama dalam basis data ini mencakup:
+
+1.  **Manajemen Data Master:** CRUD untuk Kasir, Customer, dan Layanan Laundry.
+2.  **Transaksi Laundry:** Pencatatan transaksi masuk (Header) dan rincian item cucian (Detail).
+3.  **Laporan Keuangan:** Query agregasi untuk melihat total pendapatan per layanan.
+4.  **Monitoring Status:** View khusus untuk memantau status pengerjaan laundry.
+5.  **Integritas Data:** Penerapan *Constraints* (PK/FK) dan *Transaction Control Language* (TCL) untuk mencegah data korup saat input transaksi.
+
+---
+
+## 🚀 Cara Instalasi & Menjalankan (Setup Database)
+
+Ikuti langkah berikut untuk memasang database ini di komputer lokal Anda:
+
+1.  **Clone Repository**
+    ```bash
+    git clone [https://github.com/username-kalian/project-laundry-ceria.git](https://github.com/username-kalian/project-laundry-ceria.git)
+    ```
+
+2.  **Buka Aplikasi Database**
+    Buka aplikasi manajemen database seperti **MySQL Workbench**, **PHPMyAdmin**, atau **DBeaver**.
+
+3.  **Import File SQL**
+    - Buka file yang berada di folder `/sql/laundry_db.sql`.
+    - Jalankan seluruh script (Run All / Execute Script).
+    - Script akan otomatis membuat database `db_laundry_ceria` dan mengisi data dummy.
+
+4.  **Cek Instalasi**
+    Jalankan query berikut untuk memastikan database berjalan:
+    ```sql
+    USE db_laundry_ceria;
+    SELECT * FROM transaksi;
+    ```
+
