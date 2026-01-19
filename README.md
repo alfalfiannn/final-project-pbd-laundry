@@ -15,6 +15,15 @@ Proyek ini dikerjakan oleh mahasiswa Kelas 24TIA5:
 
 ---
 
+## 📝 Deskripsi & Fitur Proyek
+Sistem ini dirancang menggunakan metode normalisasi hingga **3NF (Third Normal Form)** untuk memastikan integritas data. Fitur utama dalam basis data ini mencakup:
+
+1.  **Manajemen Data Master:** CRUD untuk Kasir, Customer, dan Layanan Laundry.
+2.  **Transaksi Laundry:** Pencatatan transaksi masuk (Header) dan rincian item cucian (Detail).
+3.  **Laporan Keuangan:** Query agregasi untuk melihat total pendapatan per layanan.
+4.  **Monitoring Status:** View khusus untuk memantau status pengerjaan laundry.
+5.  **Integritas Data:** Penerapan *Constraints* (PK/FK) dan *Transaction Control Language* (TCL) untuk mencegah data korup saat input transaksi.
+
 ## 📂 Struktur Repository
 Sesuai ketentuan tugas, repository ini disusun dengan struktur sebagai berikut:
 
@@ -66,14 +75,6 @@ Berikut merupakan tangkapan layar implementasi perintah SQL yang digunakan untuk
 
 ---
 
-## 📝 Deskripsi & Fitur Proyek
-Sistem ini dirancang menggunakan metode normalisasi hingga **3NF (Third Normal Form)** untuk memastikan integritas data. Fitur utama dalam basis data ini mencakup:
-
-1.  **Manajemen Data Master:** CRUD untuk Kasir, Customer, dan Layanan Laundry.
-2.  **Transaksi Laundry:** Pencatatan transaksi masuk (Header) dan rincian item cucian (Detail).
-3.  **Laporan Keuangan:** Query agregasi untuk melihat total pendapatan per layanan.
-4.  **Monitoring Status:** View khusus untuk memantau status pengerjaan laundry.
-5.  **Integritas Data:** Penerapan *Constraints* (PK/FK) dan *Transaction Control Language* (TCL) untuk mencegah data korup saat input transaksi.
 
 ---
 
