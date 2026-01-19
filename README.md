@@ -24,6 +24,27 @@ Sesuai ketentuan tugas, repository ini disusun dengan struktur sebagai berikut:
 
 ---
 
+## 📁 Struktur Database
+
+Database bernama `db_laundry_ceria` terdiri dari tabel-tabel berikut:
+
+* `customer` &rarr; menyimpan data pelanggan laundry (nama, alamat, no hp).
+* `kasir` &rarr; menyimpan data karyawan/kasir yang menangani transaksi.
+* `layanan` &rarr; menyimpan daftar jenis layanan laundry (kiloan/satuan) beserta harganya.
+* `transaksi` &rarr; menyimpan data header nota transaksi (tanggal terima, tanggal selesai, total bayar).
+* `detail_transaksi` &rarr; menyimpan rincian item layanan yang dipilih dalam satu transaksi.
+
+Relasi database mencakup:
+
+* **One to Many (1:N):**
+    * Satu **Customer** melakukan banyak **Transaksi**.
+    * Satu **Kasir** melayani banyak **Transaksi**.
+    * Satu **Transaksi** memuat banyak **Detail Transaksi**.
+* **Many to Many (M:N):**
+    * Antara **Transaksi** dan **Layanan**, yang dihubungkan melalui tabel perantara `detail_transaksi`.
+
+    ---
+
 ## 🛠️ Tools yang Digunakan
 - **Database Engine:** MySQL / MariaDB
 - **Tools Desain:** MySQL Workbench / Draw.io (untuk ERD)
