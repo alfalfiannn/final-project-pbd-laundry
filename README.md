@@ -45,6 +45,11 @@ Relasi database mencakup:
 
     ---
 
+## 🧩 Diagram ERD 
+Diagram berikut menggambarkan Entity Relationship Diagram (ERD) dari database db_laundry yang menunjukkan struktur tabel serta hubungan antar entitas dalam sistem Sistem Basis Data Laundry & Dry Clean
+<img width="940" height="585" alt="image" src="https://github.com/user-attachments/assets/e5e593da-65ed-44db-9f62-03097663fa81" />
+.
+
 ## 🛠️ Tools yang Digunakan
 - **Database Engine:** MySQL / MariaDB
 - **Tools Desain:** MySQL Workbench / Draw.io (untuk ERD)
