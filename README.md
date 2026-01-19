@@ -54,6 +54,10 @@ Diagram berikut menggambarkan Entity Relationship Diagram (ERD) dari database db
 Gambar berikut menunjukkan implementasi relasi antar tabel dalam  Sistem Basis Data Laundry & Dry Clean, termasuk relasi One to Many (1:N) dan Many to Many (M:N).
 <img width="898" height="501" alt="image" src="https://github.com/user-attachments/assets/3ec1c678-a0f1-45af-aa17-aafa251f06c4" />
 
+## 💻 Implementasi SQL
+Berikut merupakan tangkapan layar implementasi perintah SQL yang digunakan untuk membuat database, tabel, serta relasi antar tabel pada Sistem Basis Data Laundry & Dry Clean.
+<img width="1926" height="2572" alt="code implementasi" src="https://github.com/user-attachments/assets/4e92ff8f-6546-4d81-972c-306439a953f3" />
+
 
 ## 🛠️ Tools yang Digunakan
 - **Database Engine:** MySQL / MariaDB
