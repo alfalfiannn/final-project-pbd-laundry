@@ -46,9 +46,14 @@ Relasi database mencakup:
     ---
 
 ## 🧩 Diagram ERD 
-Diagram berikut menggambarkan Entity Relationship Diagram (ERD) dari database db_laundry yang menunjukkan struktur tabel serta hubungan antar entitas dalam sistem Sistem Basis Data Laundry & Dry Clean
+Diagram berikut menggambarkan Entity Relationship Diagram (ERD) dari database db_laundry yang menunjukkan struktur tabel serta hubungan antar entitas dalam sistem Sistem Basis Data Laundry & Dry Clean.
 <img width="940" height="585" alt="image" src="https://github.com/user-attachments/assets/e5e593da-65ed-44db-9f62-03097663fa81" />
-.
+
+
+## 🧾 Relasi Antar Tabel
+Gambar berikut menunjukkan implementasi relasi antar tabel dalam  Sistem Basis Data Laundry & Dry Clean, termasuk relasi One to Many (1:N) dan Many to Many (M:N).
+<img width="898" height="501" alt="image" src="https://github.com/user-attachments/assets/3ec1c678-a0f1-45af-aa17-aafa251f06c4" />
+
 
 ## 🛠️ Tools yang Digunakan
 - **Database Engine:** MySQL / MariaDB
