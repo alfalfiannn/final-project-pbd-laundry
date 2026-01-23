@@ -29,7 +29,7 @@ Sesuai ketentuan tugas, repository ini disusun dengan struktur sebagai berikut:
 
 - **`/sql`**: Berisi file script database (`.sql`) yang siap dijalankan (DDL, DML, Query).
 - **`/dokumen`**: Berisi Laporan Akhir (PDF) dan Poster Project (PDF).
-- **`/assets`**: (Opsional) Menyimpan gambar ERD atau screenshot hasil query untuk ditampilkan di README ini.
+- **`/assets`**: Menyimpan gambar ERD atau screenshot hasil query untuk ditampilkan di README ini.
 
 ---
 
