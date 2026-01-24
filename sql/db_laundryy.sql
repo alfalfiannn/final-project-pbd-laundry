@@ -4,9 +4,6 @@
     Kelompok: Ceriaa
     Anggota: Alfian, Iman, Yoga
     
-    Deskripsi:
-    Script ini akan membuat database 'db_laundry_ceria', tabel-tabel yang diperlukan,
-    mengisi data awal (seeding), melakukan query analisis wajib, dan mensimulasikan transaksi.
 */
 
 -- ==========================================================
