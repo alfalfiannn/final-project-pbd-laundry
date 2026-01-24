@@ -9,7 +9,7 @@ Proyek ini dikerjakan oleh mahasiswa Kelas 24TIA5:
 
 | NIM | Nama Lengkap | Peran |
 | :--- | :--- | :--- |
-| **240103153** | **Alfian Hafidz Affandi** | Implementasi SQL & Query |
+| **240103153** | **Alfian Hafidz Affandi** | Implementasi SQL, Query dan Github |
 | **240103163** | **Iman Septian** | Penyusunan Laporan & Dokumentasi |
 | **240103180** | **Yoga Rafi Arifianto** | Penyusunan Poster |
 
